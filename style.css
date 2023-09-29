@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*The Main*/
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  width: 100%;
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #2e3f59;
+  border-right: 5px solid black;
+}
+
+.section2 {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+/*Images*/
+
+.longimg {
+  width: 100%;
+  height: 100%;
+}
+
+.longimg img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.smallimgSmoke {
+  display: flex;
+  width: 20em;
+  height: 25em;
+  position: absolute;
+  left: 69.6%;
+  bottom: 21.5%;
+  border-radius: 10%;
+  box-shadow: -0.5em 0.5em 20px 0px rgba(0, 0, 0, 100%);
+}
+
+.smallimgSmoke img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10%;
+  border: 5px solid #f0bd2e;
+}
+
+.Red-wrap {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: absolute;
+  left: 70.3%;
+  bottom: 23.6%;
+  width: 19em;
+  height: 3em;
+}
+
+.Red-wrap h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #ee2f28;
+}
+
+.smallimg {
+  width: 20em;
+  height: 25em;
+  position: absolute;
+  left: 87%;
+  bottom: 39%;
+  border-radius: 10%;
+  box-shadow: -0.5em 0.5em 25px 1px rgba(0, 0, 0, 100%);
+}
+
+.smallimg img {
+  width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10%;
+  border: 5px solid #ee2f28;
+}
+
+.Web-wrap {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: absolute;
+  left: 87.7%;
+  bottom: 41%;
+  width: 19em;
+  height: 3em;
+}
+
+.Web-wrap h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #f3c031;
+}
+
+.loginInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 2.5em;
+  padding-top: 5em;
+}
+
+.loginInfo h1 {
+  font-family: "Metal Mania", cursive;
+  font-size: 5em;
+  width: 100%;
+  margin: 0;
+  color: #f3c031;
+  opacity: 70%;
+}
+
+.loginInfo p {
+  display: inline-block;
+  font-weight: bold;
+  color: #6c95a5;
+  font-family: "ADLaM Display", cursive;
+  font-family: "Croissant One", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Inter", sans-serif;
+  /* font-family: "Playfair Display", serif; */
+}
+
+.version {
+  margin-bottom: 5em;
+  text-decoration: underline solid;
+}
+
+.pInfo {
+  width: 50%;
+  margin-top: 2em;
+  line-height: 1.5em;
+}
+
+.loginInfo a {
+  display: block;
+  margin-top: 7em;
+  border: 2px solid black;
+  outline: 1.5px solid #f3c031;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  background-color: #f3c031;
+  color: red;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin-left: 3em;
+}
